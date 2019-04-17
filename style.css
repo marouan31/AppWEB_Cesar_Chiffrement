@@ -1,0 +1,49 @@
+body {
+    font-size: 100%;/* considérons 16px pour l'utilisateur */
+    color:#330000;
+    width: 740px;
+    font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+    font-size: 1.875em; /* 30px */
+    margin: 30px 0 30px 30px;
+    height: 30px;
+
+}
+label {
+    font-size: 1.5em; /* 24px */
+    text-align: right;
+    margin: 30px 0 30px 30px;
+    height: 20px;
+    width: 300px;
+    display: inline-block;
+}
+input {
+    font-size: 1.5em; /* 24px */
+    margin: 0 0 0 20px;
+    width: 50%;
+    text-align: center;
+}
+button {
+    background-image: url(cesar.gif);
+    background-repeat: no-repeat;
+
+    font-size: 2.25em; /* 36px */
+    background-color: #00BCD4;
+    color: #F0F0F0;
+    width: 100%;
+    height: 80px;
+    margin: 40px 0 40px 0;
+    padding: 0 0 0 1em;
+}
+.resultat {
+    font-size: 1.5em; /* 24px */
+    width: 100%;
+    margin: 0 0 0 30px;
+}
+.erreur {
+    color: red;
+}
+.inactif {
+    background-color: grey;
+}

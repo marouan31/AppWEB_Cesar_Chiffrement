@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<!-- favicon générée avec https://favicon.io/ -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cesar code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <h1>Code de César</h1>
+    <form id="chiffre_frm">
+        <label id="saisie_msg_lbl" for="saisie_msg">Entrez la phrase de départ</label>
+        <input type="text" id="saisie_msg" placeholder="Phrase à coder">
+        <label id="saisie_code_lbl" for="saisie_code">Entrez le code</label>
+        <input type="number" id="saisie_code" placeholder="Code 0..25" min="0" max="25">
+        <!-- type="button" est important pour que le bouton ne soit pas
+        d'un type qui submit la page et la raffraichisse... -->
+        <button id="chiffre_btn" type="button">Chiffrer la phrase</button>
+
+        <div id="chiffre_resultat" class="resultat"></div>
+
+        <button id="dechiffre_btn" type="button">Déchiffrer la phrase</button>
+        <div id="dechiffre_resultat" class="resultat"></div>
+    </form>
+
+
+    <script src="chiffcesar.js"></script>
+    <script src="cesarweb.js"></script>
+</body>
+
+</html>
